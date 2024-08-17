@@ -1,0 +1,20 @@
+[[xrt]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "967000de86efb76b695503701ddeedc5462210bd"
+libc = "glibc"
+os = "linux"
+
+    [[xrt.download]]
+    sha256 = "4ddc0a9e85941a1003b44203ef87dd0144eb8f3ff8a33c7fb6744f4e1df04f04"
+    url = "https://github.com/Mellich/xrt_jll.jl/releases/download/xrt-v2.17.0+0/xrt.v2.17.0.x86_64-linux-gnu-cxx03.tar.gz"
+[[xrt]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ed9b815d9c721984ca8cca6920704943b6aafb8f"
+libc = "glibc"
+os = "linux"
+
+    [[xrt.download]]
+    sha256 = "731c97f542b85ab514d61aa14b8d1e5e26b1d164675b8f08e1a2216477b17195"
+    url = "https://github.com/Mellich/xrt_jll.jl/releases/download/xrt-v2.17.0+0/xrt.v2.17.0.x86_64-linux-gnu-cxx11.tar.gz"
